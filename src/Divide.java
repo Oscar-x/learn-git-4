@@ -5,7 +5,7 @@ public class Divide {
      * @return
      */
     public static int divide(int x,int y) {
-        if(x==0 || y==0)
+        if(y==0)
         {
             System.out.println("除数不能为0");
 
