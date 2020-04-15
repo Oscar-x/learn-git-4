@@ -4,8 +4,17 @@ public class Divide {
      *
      * @return
      */
-    public static int divide() {
-        
+    public static int divide(double x,double y) {
+        double result;
+        result = x/y;
+        if(x==0||y==0)
+        {
+            System.out.println("除数不能为0");
+
+        }
+        else{
+            System.out.println("结果="+result);
+        }
         return 0;
     }
 }
