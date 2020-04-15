@@ -4,13 +4,8 @@ public class Subtract {
      *
      * @return
      */
-    public static int subtract() {
-        Scanner sc new Scanner(System.in);
-	int a,b,sum=0;
-	a=sc.nextInt();
-	b=sc.nextInt();
-	sum=n1-n2;
-	System.out.println("两数相减等于“+sum);
-	return 0;
+    public static int subtract(int a ,int b) {
+	    int result =a-b;
+	    return result;
     }
 }
