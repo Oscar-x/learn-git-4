@@ -4,7 +4,7 @@ public class Subtract {
      *
      * @return
      */
-    public static int subtract() {
-        return 0;
+    public static int subtract(int a ,int b) {
+	    return a-b;
     }
 }
