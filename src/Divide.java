@@ -4,8 +4,8 @@ public class Divide {
      *
      * @return
      */
-    public static int divide(double x,double y) {
-        double result;
+    public static int divide(int x,int y) {
+        int result;
         result = x/y;
         if(x==0||y==0)
         {
