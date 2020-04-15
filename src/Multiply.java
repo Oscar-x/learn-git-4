@@ -4,7 +4,9 @@ public class Multiply {
      *
      * @return
      */
-    public static int multiply() {
-        return 0;
+    public static int multiply(int i,int j) {
+        int sum;
+        sum=i+j;
+        return sum;
     }
 }
