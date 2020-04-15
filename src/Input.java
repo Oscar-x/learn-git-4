@@ -6,7 +6,7 @@ public class Input {
      * 返回获取的用户输入字符串
      *
      */
-    public static String Input(String[] args) {
+    public static String Input() {
         System.out.println("请输入需要计算的整数（如：1+10）:");
         Scanner sc = new Scanner(System.in);
         String info = sc.nextLine();
