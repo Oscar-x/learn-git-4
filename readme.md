@@ -24,7 +24,7 @@
 按照分工完成对应的方法，很简单~
 
 - 10672661：加法 
-- TieJiang13：乘法
+- TieJiang13：减法
 - soreak：乘法
 - Mangnolia：除法
 - cjw0816：用户输入
