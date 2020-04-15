@@ -10,24 +10,23 @@ public class Result {
      * @return
      */
     public static int result(string x) {
-        String count = "114+514";
+        String count = x;
         String[] num = count.split("\\D");
         String[] symbol=count.split("\\d+");
         String sym=symbol[1];      
-        System.out.printf("%s\n",sym);
         int a=Integer.valueOf(num[0]).intValue();
         int b=Integer.valueOf(num[1]).intValue();
         if(sym=="+"){
-            Add.add(a,b);
+            return Add.add(a,b);
         }
         else if(sym=="-"){
-            Subtract.subtract(a,b);
+            return Subtract.subtract(a,b);
         }
         else if(sym=="*"){
-            Multiply.multiply(a, b);
+            return Multiply.multiply(a, b);
         }
         else if(sym=="/"){
-            Divide.divide(a,b);
+            return Divide.divide(a,b);
         }
         else{
             return null;
