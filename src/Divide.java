@@ -4,8 +4,15 @@ public class Divide {
      *
      * @return
      */
-    public static int divide() {
-        
+    public static int divide(int x,int y) {
+        if(y==0)
+        {
+            System.out.println("除数不能为0");
+
+        }
+        else{
+            return x/y;
+        }
         return 0;
     }
 }
