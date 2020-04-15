@@ -4,7 +4,8 @@ public class Add {
      *
      * @return
      */
-    public static int add() {
-        return 0;
+    public static int add(int a ,int b) {
+        int result=a+b;
+        return result;
     }
 }
