@@ -9,8 +9,7 @@ public class Result {
      *
      * @return
      */
-    public static int result(string x) {
-        String count = x;
+    public static int result(String count) {
         String[] num = count.split("\\D");
         String[] symbol=count.split("\\d+");
         String sym=symbol[1];      
