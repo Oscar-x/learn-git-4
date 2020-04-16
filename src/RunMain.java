@@ -10,7 +10,6 @@ public class RunMain {
     public static void main(String[] args) {
         String str=null;  
         str=Input.input();
-        System.out.printf("%d",Result.result(str));
-
+        System.out.println(Result.result(str));
     }
 }
