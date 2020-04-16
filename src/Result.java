@@ -8,7 +8,7 @@ public class Result {
      * 获取数字可以用：split("\\D")
      * 获取符号可以用: split("\\d+")
      *
-     * @return
+     * @return int
      */
     public static int result(String count) {
         String[] num = count.split("\\D");
