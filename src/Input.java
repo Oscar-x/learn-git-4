@@ -39,7 +39,7 @@ public class Input {
         System.out.println("未输入");
         return null;
     }
-    static String infojudge(String info, String symbol){
+    static String infoJudge(String info, String symbol){
         String[] infos = info.split(symbol);
         if (infos.length == 2 && (!infos[0].isEmpty() && !infos[1].isEmpty())) {
             return "yes";
