@@ -7,7 +7,7 @@ public class Input {
      *
      * @return
      */
-    public static String Input() {
+    public static String input() {
         System.out.println("请输入需要计算的整数（如：1+10）:");
         Scanner sc = new Scanner(System.in);
         String info = sc.nextLine();

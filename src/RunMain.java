@@ -8,7 +8,9 @@ public class RunMain {
      * @param args
      */
     public static void main(String[] args) {
-
+        String str=null;  
+        str=Input.input();
+        System.out.printf("%d",Result.result(str));
 
     }
 }
