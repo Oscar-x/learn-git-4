@@ -12,22 +12,22 @@ public class Input {
         String info = sc.nextLine();
         if (!info.isEmpty()){
             if(info.contains("+")) {
-                if(infojudge(info,"\\+")=="yes"){
+                if(infoJudge(info,"\\+")){
                     return info;
                 }
             }
             else if(info.contains("-")){
-                if(infojudge(info,"\\-")=="yes"){
+                if(infoJudge(info,"\\-")){
                     return info;
                 }
             }
             else if(info.contains("*")){
-                if(infojudge(info,"\\*")=="yes"){
+                if(infoJudge(info,"\\*")){
                     return info;
                 }
             }
             else if (info.contains("/")){
-                if(infojudge(info,"\\/")=="yes"){
+                if(infoJudge(info,"\\/")){
                     return info;
                 }
             }
@@ -39,14 +39,14 @@ public class Input {
         System.out.println("未输入");
         return null;
     }
-    static String infojudge(String info, String symbol){
+    static boolean infoJudge(String info, String symbol){
         String[] infos = info.split(symbol);
         if (infos.length == 2 && (!infos[0].isEmpty() && !infos[1].isEmpty())) {
-            return "yes";
+            return true;
         }
         else {
             System.out.println("未输入两位数");
-            return null;
+            return false;
         }
     }
 }
