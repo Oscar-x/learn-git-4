@@ -16,13 +16,13 @@ public class Result {
         String sym = symbol[1];
         int a = Integer.valueOf(num[0]).intValue();
         int b = Integer.valueOf(num[1]).intValue();
-        if (sym == "+") {
+        if (sym.contains("+")) {
             return Add.add(a, b);
-        } else if (sym == "-") {
+        } else if (sym.contains("-")) {
             return Subtract.subtract(a, b);
-        } else if (sym == "*") {
+        } else if (sym.contains("*")) {
             return Multiply.multiply(a, b);
-        } else if (sym == "/") {
+        } else if (sym.contains("/")) {
             return Divide.divide(a, b);
         } else {
             return 0;
